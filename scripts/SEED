@@ -1,0 +1,21 @@
+#!/bin/bash
+
+touch ~/Desktop/seed.txt
+
+DATE=`date +%Y-%m-%d`
+echo '==========NEW SEED GENERATED==========' >> /Volumes/IMARKETTKEY/seed.txt
+echo $DATE >> /Volumes/IMARKETTKEY/seed.txt
+echo 'This will be your Private Seed:' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo `cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1` >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo 'Write this down somewhere safe off your computer to be able to use it as a back up.' >> /Volumes/IMARKETTKEY/seed.txt
+
+echo 'This Private Seed is not meant to be shared with anyone and if someone has access to this seed they will have access to your IOTA' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo 'You can copy and paste your seed above to the IOTA Wallet and have access to your wallet' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
+echo 'If you click Generate Seed again a new seed will be created below. Be sure to know in which seed your IOTA is.' >> /Volumes/IMARKETTKEY/seed.txt
+echo ' ' >> /Volumes/IMARKETTKEY/seed.txt
