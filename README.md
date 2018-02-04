@@ -22,4 +22,5 @@ This is how the USBs will look.
 
 
 ### Product Demo
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V9e9iXpKUXk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<a href="https://youtu.be/V9e9iXpKUXk">Click Here for demo</a>
