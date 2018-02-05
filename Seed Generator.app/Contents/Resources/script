@@ -1,0 +1,22 @@
+#!/bin/bash
+
+DATE=`date +%Y-%m-%d`
+
+
+cd ../../..
+echo '==========NEW SEED GENERATED==========' >> seed.txt
+echo $DATE >> seed.txt
+echo 'This will be your Private Seed:' >> seed.txt
+echo ' ' >> seed.txt
+echo `cat /dev/urandom |LC_ALL=C tr -dc 'A-Z9' | fold -w 81 | head -n 1` >> seed.txt
+echo ' ' >> seed.txt
+echo 'Write this down somewhere safe off your computer to be able to use it as a back up.' >> seed.txt
+
+echo 'This Private Seed is not meant to be shared with anyone and if someone has access to this seed they will have access to your IOTA' >> seed.txt
+echo ' ' >> seed.txt
+echo ' ' >> seed.txt
+echo 'You can copy and paste your seed above to the IOTA Wallet and have access to your wallet' >> seed.txt
+echo ' ' >> seed.txt
+echo ' ' >> seed.txt
+echo 'If you click Generate Seed again a new seed will be created below. Be sure to know in which seed your IOTA is.' >> seed.txt
+echo ' ' >> seed.txt
