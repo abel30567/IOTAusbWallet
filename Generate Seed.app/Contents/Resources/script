@@ -1,8 +1,6 @@
 #!/bin/bash
 
 DATE=`date +%Y-%m-%d`
-
-
 cd ../../..
 echo '==========NEW SEED GENERATED==========' >> seed.txt
 echo $DATE >> seed.txt
